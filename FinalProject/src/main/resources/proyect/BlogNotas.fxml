@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyect.BlogNotasController">
+   <children>
+      <Button layoutX="309.0" layoutY="248.0" mnemonicParsing="false" onAction="#anyadir" prefHeight="25.0" prefWidth="149.0" text="Add" />
+      <Label layoutX="192.0" layoutY="191.0" text="Fecha" />
+      <Label layoutX="192.0" layoutY="132.0" text="Descripcion" />
+      <Label layoutX="192.0" layoutY="80.0" text="Nombre" />
+      <TextField fx:id="txtfecha" layoutX="309.0" layoutY="187.0" />
+      <TextField fx:id="txtdes" layoutX="309.0" layoutY="128.0" />
+      <TextField fx:id="txtnombre" layoutX="309.0" layoutY="76.0" />
+      <Button layoutX="309.0" layoutY="297.0" mnemonicParsing="false" onAction="#ver" prefHeight="25.0" prefWidth="149.0" text="Ver" />
+   </children>
+</AnchorPane>

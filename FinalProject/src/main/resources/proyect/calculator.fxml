@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyect.CalculatorController">
+   <children>
+      <Button layoutX="193.0" layoutY="272.0" mnemonicParsing="false" onAction="#bt0" prefHeight="41.0" prefWidth="40.0" text="0" />
+      <Button layoutX="193.0" layoutY="225.0" mnemonicParsing="false" onAction="#bt1" prefHeight="41.0" prefWidth="40.0" text="1" />
+      <Button layoutX="193.0" layoutY="180.0" mnemonicParsing="false" onAction="#bt4" prefHeight="41.0" prefWidth="40.0" text="4" />
+      <Button layoutX="193.0" layoutY="132.0" mnemonicParsing="false" onAction="#bt7" prefHeight="41.0" prefWidth="40.0" text="7" />
+      <Button layoutX="242.0" layoutY="130.0" mnemonicParsing="false" onAction="#bt8" prefHeight="41.0" prefWidth="40.0" text="8" />
+      <Button layoutX="242.0" layoutY="178.0" mnemonicParsing="false" onAction="#bt5" prefHeight="41.0" prefWidth="40.0" text="5" />
+      <Button layoutX="242.0" layoutY="223.0" mnemonicParsing="false" onAction="#bt2" prefHeight="41.0" prefWidth="40.0" text="2" />
+      <Button layoutX="242.0" layoutY="270.0" mnemonicParsing="false" onAction="#btDot" prefHeight="41.0" prefWidth="40.0" text="." />
+      <Button layoutX="289.0" layoutY="130.0" mnemonicParsing="false" onAction="#bt9" prefHeight="41.0" prefWidth="40.0" text="9" />
+      <Button layoutX="289.0" layoutY="178.0" mnemonicParsing="false" onAction="#bt6" prefHeight="41.0" prefWidth="40.0" text="6" />
+      <Button layoutX="289.0" layoutY="223.0" mnemonicParsing="false" onAction="#bt3" prefHeight="41.0" prefWidth="40.0" text="3" />
+      <Button layoutX="337.0" layoutY="177.0" mnemonicParsing="false" onAction="#btMulti" prefHeight="41.0" prefWidth="40.0" text="*" />
+      <Button layoutX="337.0" layoutY="222.0" mnemonicParsing="false" onAction="#btMas" prefHeight="41.0" prefWidth="40.0" text="+" />
+      <Button layoutX="384.0" layoutY="179.0" mnemonicParsing="false" onAction="#btDivi" prefHeight="41.0" prefWidth="40.0" text="/" />
+      <Button layoutX="384.0" layoutY="224.0" mnemonicParsing="false" onAction="#btMenos" prefHeight="41.0" prefWidth="40.0" text="-" />
+      <Button layoutX="384.0" layoutY="271.0" mnemonicParsing="false" onAction="#btIgual" prefHeight="41.0" prefWidth="40.0" text="=" />
+      <Label fx:id="textosolu" layoutX="199.0" layoutY="94.0" />
+      <Label fx:id="solucion" layoutX="449.0" layoutY="284.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="35.0" layoutY="348.0" mnemonicParsing="false" onAction="#VolverInicio" text="Volver al inicio" />
+   </children>
+</AnchorPane>

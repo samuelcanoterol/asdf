@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyect.VerNotasController">
+   <children>
+      <ListView fx:id="vistaNotas" layoutX="80.0" layoutY="26.0" prefHeight="308.0" prefWidth="457.0" />
+      <Button layoutX="99.0" layoutY="349.0" mnemonicParsing="false" onAction="#veralf" text="Ver alfabeticamente" />
+      <Button layoutX="479.0" layoutY="349.0" mnemonicParsing="false" onAction="#borrar" text="Borrar" />
+      <Button layoutX="286.0" layoutY="349.0" mnemonicParsing="false" onAction="#verfecha" text="Ver por fecha" />
+      <Button layoutX="14.0" layoutY="355.0" mnemonicParsing="false" onAction="#volver" text="Volver" />
+   </children>
+</AnchorPane>
